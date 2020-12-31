@@ -9,6 +9,8 @@
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!--mfizz icons-->
+        <link rel="stylesheet" href="css/font-mfizz-2.4.1/font-mfizz.css">
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
@@ -28,9 +30,9 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                 </ul>
             </div>
         </nav>
@@ -59,7 +61,7 @@
             <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
+                    <h2 class="mb-5">Relevant Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Graduate Student Researcher</h3>
@@ -152,44 +154,8 @@
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Pragmatically using both Object-Oriented Programming and Functional Programing Styles
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Improving
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>When I am not doing research, I enjoy most of my time being outdoors. I love expthe amazing outdoors of Northern California. </p>
-                </div>
-            </section>
-            <hr class="m-0" />
+
+
             <!-- Projects-->
             <section class="resume-section" id="projects">
                 <div class="resume-section-content">
@@ -204,7 +170,7 @@
         Machine Learning Assisted Sampling of SERS Substrates for early cancer Detection</a>
       </h4>
     </div>
-    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+    <div id="collapseOne" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="headingOne">
       <div class="panel-body">
       <body><p>Surface Enhanced Raman Spectroscopy (SERS) is an analytical technique useful for detecting low-abundance biomolecules in biological fluids. One particularly promising application of this technique is the detection of cancer-cell-originating extracellular vesicles in a people’s blood. The presence of these extracellular vesicles indicates the presence of cancerous cells in the body, thus providing an early warning of cancer. A major barrier to the widespread application of this technique is the challenges associated with the data analysis of the SERS spectra.</p>
 
@@ -256,7 +222,7 @@
       <div class="panel-body">
         <p>I am currently a participant in UC Davis Lab’s Hack for California Research cluster where I work on the General Plan Mapping Project. This project aims to make the hundreds of general plans prepared by California cities and counties easily searchable.</p>
 
-        <p>A major challenge of this project was developing an efficient, and fast way to search the tens of thousands of document pages so that query results could be displayed to the user. The original general plan mapping website written using R, thus limiting the amount of available packages. To meet the requirement quickly, I developed a custom word indexer in C++, which was able to integrate with the initial mapping dashboard and achieve high performance. The website was then reprogrammed in Python’s Flask, which allowed me to utilize in Elasticsearch to improve the searching capabilities significantly. The first version of the R shinny website can be found <a href=https://critical-data-analysis.org/shiny/general-plan-map/R/ >here</a>. The new Elasticsearch based website can be found <a href=https://critical-data-analysis.org/general-plan-map/> here </a>. The Github repo for both of these projects can be found <a href=https://github.com/Hack-for-California/General-Plan-Map>here</a>.</p></div>    </div>
+        <p>A major challenge of this project was developing an efficient, and fast way to search the tens of thousands of document pages so that query results could be displayed to the user. The original general plan mapping website written using f, thus limiting the amount of available packages. To meet the requirement quickly, I developed a custom word indexer in C++, which was able to integrate with the initial mapping dashboard and achieve high performance. The website was then reprogrammed in Python’s Flask, which allowed me to utilize in Elasticsearch to improve the searching capabilities significantly. The first version of the R shinny website can be found <a href=https://critical-data-analysis.org/shiny/general-plan-map/R/ >here</a>. The new Elasticsearch based website can be found <a href=https://critical-data-analysis.org/general-plan-map/> here </a>. The Github repo for both of these projects can be found <a href=https://github.com/Hack-for-California/General-Plan-Map>here</a>.</p></div>    </div>
   </div>
 </div>
 
@@ -266,6 +232,59 @@
     
     </section>
         </div>
+
+
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="icon-c"></i></li>
+                        <li class="list-inline-item"><i class="icon-cplusplus"></i></li>
+                        <li class="list-inline-item"><i class="icon-java"></i></li>
+                        <li class="list-inline-item"><i class="icon-database"></i></li>
+                        <li class="list-inline-item"><i class="icon-ubuntu"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-git"></i></li>
+                        <li class="list-inline-item"><i class="icon-elasticsearch"></i></li>
+                        <li class="list-inline-item"><img rel=></i></li>
+
+                    </ul>
+
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Pragmatically using both Object-Oriented Programming and Functional Programing Styles
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Utilizing git and github for version control to colaborate on team projects  
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li>
+                    </ul>
+                    <p></p>
+                    <p></p>
+
+                    <div class="subheading mb-3">Keywords</div>
+                    <p>Data Science, Machine Learning, Agile Project Management, Industry Knowledge, Mathematics, Chemistry, Laboratory Skills, Chemical Engineering, Agile Methodologies, Strategic Planning, Project Management, Data Analysis, Requirements Gathering, Software Development, Quantitative Analysis, Big Data, Artificial Intelligence (AI), Cell Culture, Computer Vision, Python, R (Programming Language), SQL, Python (Programming Language), MATLAB, Git, Elasticsearch, C, C++, Cross-functional Teamwork, Communication, Presentations, Problem Solving, Leadership, ML/AI, Machine Learning Engineering, openCV, Data Pipelines, ML Models, CI/CD, Data Analytics, FinTech, NumPy, Pandas, Scikit-learn<p>
+
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>When I am not doing research, I enjoy spending time outdoors. I am in Davis, California right now, which is close to the  expthe amazing outdoors of Northern California. I grew up in the SF Bay Area and want to remain here or move to Seattle.  </p>
+                </div>
+            </section>
+            <hr class="m-0" />
+
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
