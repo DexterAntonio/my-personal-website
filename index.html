@@ -129,7 +129,7 @@
                             <div>Chemical Engineering </div>
                             <p>GPA: 3.85/4.00</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">June 2018 - Present</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2018 - Present (expected June 2021)</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
@@ -187,7 +187,6 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
                     <p>When I am not doing research, I enjoy most of my time being outdoors. I love expthe amazing outdoors of Northern California. </p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
                 </div>
             </section>
             <hr class="m-0" />
@@ -196,61 +195,76 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5">Projects</h2>
 
-                <div class="container-fluid" s style="background-color: rgb(225, 77, 77);">
-                    <a href="#collapse1" data-toggle="collapse" class="caption">
-                        <div class="desc">
-                            <div class="caption"><h3><strong font="" style="color:white">Machine Learning Assisted Sampling of SERS Substrates for early cancer Detection </strong></h3></div>
-                            <ul align="left"></a>
-                                <div id="collapse1" style="color:white; background-color:rgba(255, 255, 255, 0.2)" class="panel-collapse collapse">
 
-                                    <body><p>Surface Enhanced Raman Spectroscopy (SERS) is an analytical technique useful for detecting low-abundance biomolecules in biological fluids. One particularly promising application of this technique is the detection of cancer-cell-originating extracellular vesicles in a people’s blood. The presence of these extracellular vesicles indicates the presence of cancerous cells in the body, thus providing an early warning of cancer. A major barrier to the widespread application of this technique is the challenges associated with the data analysis of the SERS spectra.</p>
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Machine Learning Assisted Sampling of SERS Substrates for early cancer Detection</a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+      <body><p>Surface Enhanced Raman Spectroscopy (SERS) is an analytical technique useful for detecting low-abundance biomolecules in biological fluids. One particularly promising application of this technique is the detection of cancer-cell-originating extracellular vesicles in a people’s blood. The presence of these extracellular vesicles indicates the presence of cancerous cells in the body, thus providing an early warning of cancer. A major barrier to the widespread application of this technique is the challenges associated with the data analysis of the SERS spectra.</p>
 
-                                    <p>One major data analysis challenge in applying SERS for early cancer diagnosis is distinguishing cellular signals from background signals. </p>
+      <p>One major data analysis challenge in applying SERS for early cancer diagnosis is distinguishing cellular signals from background signals. </p>
 
-                                    <p>I addressed this problem through careful data engineering and the application of modern machine learning algorithms. First, I built a program that allowed experienced researchers to label spectra as either “good” (i.e., a real signal) or “bad” (i.e., background). After this labeling was complete, I then used a random forest algorithm to automatically classify unlabeled spectra as “good” or “bad”. Finally, I integrated this algorithm with LabVIEW so that the classification was done automatically allowing for more efficient data collection.  </p></body>
+      <p>I addressed this problem through careful data engineering and the application of modern machine learning algorithms. First, I built a program that allowed experienced researchers to label spectra as either “good” (i.e., a real signal) or “bad” (i.e., background). After this labeling was complete, I then used a random forest algorithm to automatically classify unlabeled spectra as “good” or “bad”. Finally, I integrated this algorithm with LabVIEW so that the classification was done automatically allowing for more efficient data collection.  </p></body>
+  </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Zeolite Simulation Environment (ZeoSE) Package Development
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        <p>I am building the ZeoSE project to streamline the calculations performed in my research group. The ZeoSE project extends the <a href=https://wiki.fysik.dtu.dk/ase/> Atomic Simulation Environment (ASE)</a> to naturally represent the properties of <a href=https://en.wikipedia.org/wiki/Zeolite>zeolites</a> facilitating the calculations required to determine their properties. The main functionality of this code comes about by creating classes which represent zeolites and their derivatives. These zeolite classes inherit from ASE’s Atoms object, and can be treated as one. They also include additional functionality, streamlining calculations and allow zeolite derivatives to be quickly generated allowing for the rapid screening of zeolite properties.  </p>      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Screening Zeolites for their CO2 capture ability with Grand Canonical Monte Carlo (GCMC) Simulations
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+            <p>Global climate change is one of the biggest challenge’s humanity faces today. One promising solution is retrofitting existing fossil fuel powerplants with CO2 capture technology. Zeolites, which are nano-porous materials used industrially for gas separation and capture, hold considerable promise for CO2 capture. Identifying the best Zeolite for this purpose is challenging due to huge chemical space of Zeolites.</p>
 
-                                </div>
-                            </ul>
-                        </div>
-                </div>
+            <p>I addressed this problem by utilizing RASPA2, a classical simulation package, to perform GCMC calculations to assess the adsorption capacity of zeolites. For speed RASPA2 is written in C, but does include simple python interface. I extended this built-in python interface to allow for Isotherm calculations needed to asses zeolites CO2 capture ability.</p></div>
+    </div>
+  </div>
+</div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingFour">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          General Plan Mapping Project
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+      <div class="panel-body">
+        <p>I am currently a participant in UC Davis Lab’s Hack for California Research cluster where I work on the General Plan Mapping Project. This project aims to make the hundreds of general plans prepared by California cities and counties easily searchable.</p>
+
+        <p>A major challenge of this project was developing an efficient, and fast way to search the tens of thousands of document pages so that query results could be displayed to the user. The original general plan mapping website written using R, thus limiting the amount of available packages. To meet the requirement quickly, I developed a custom word indexer in C++, which was able to integrate with the initial mapping dashboard and achieve high performance. The website was then reprogrammed in Python’s Flask, which allowed me to utilize in Elasticsearch to improve the searching capabilities significantly. The first version of the R shinny website can be found <a href=https://critical-data-analysis.org/shiny/general-plan-map/R/ >here</a>. The new Elasticsearch based website can be found <a href=https://critical-data-analysis.org/general-plan-map/> here </a>. The Github repo for both of these projects can be found <a href=https://github.com/Hack-for-California/General-Plan-Map>here</a>.</p></div>    </div>
+  </div>
+</div>
 
 
-                <div class="container-fluid" style="background-color: rgb(51, 153, 225);">
-                    <a href="#collapse2" data-toggle="collapse" class="caption">
-                        <div class="desc">
-                            <div class="caption"><h3><strong font="" style="color:white">Zeolite Simulation Environment (ZeoSE) Package Development  </strong></h3></div>
-                            <ul align="left"></a>
-                                <div id="collapse2" style="color:white; background-color:rgba(255, 255, 255, 0.2)" class="panel-collapse collapse">
 
-                                    <p>I am building the ZeoSE project to streamline the calculations performed in my research group. The ZeoSE project extends the <a href=https://wiki.fysik.dtu.dk/ase/> Atomic Simulation Environment (ASE)</a> to naturally represent the properties of zeolites facilitating the calculations required to determine their properties. The main functionality of this code comes about by creating classes which represent zeolites and their derivatives. These zeolite classes inherit from ASE’s Atoms object, and can be treated as one. They also include additional functionality, streamlining calculations and allow zeolite derivatives to be quickly generated allowing for the rapid screening of zeolite properties.  </p>
-
-                                </div>
-                            </ul>
-                        </div>
-                </div>
-
-
-                <div class="container-fluid" style="background-color: rgba(0,0,225)">
-                    <a href="#collapse3" data-toggle="collapse" class="caption">
-                        <div class="desc">
-                            <div class="caption"><h3><strong font="" style="color:white">Screening Zeolites for their CO2 capture ability with Grand Canonical Monte Carlo (GCMC) Simulations   </strong></h3></div>
-                            <ul align="left"></a>
-                                <div id="collapse3" style="color:white; background-color:rgba(255, 255, 255, 0.2)" class="panel-collapse collapse">
-
-                                    <p>Global climate change is one of the biggest challenge’s humanity faces today. One promising solution is retrofitting existing fossil fuel powerplants with CO2 capture technology. Zeolites, which are nano-porous materials used industrially for gas separation and capture, hold considerable promise for CO2 capture. Identifying the best Zeolite for this purpose is challenging due to huge chemical space of Zeolites.</p>
-
-                                    <p>I addressed this problem by utilizing RASPA2, a classical simulation package, to perform GCMC calculations to assess the adsorption capacity of zeolites. For speed RASPA2 is written in C, but does include simple python interface. I extended this built-in python interface to allow for 
-                                    Isotherm calculations needed to asses zeolites CO2 capture ability.</p> 
-
-
-                                </div>
-                            </ul>
-                        </div>
-                </div>
-
-
-                </div>
-            </section>
+</div>
+    
+    </section>
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
