@@ -191,50 +191,64 @@
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Awards-->
+            <!-- Projects-->
             <section class="resume-section" id="projects">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Projects</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
-                    </ul>
+
+                <div class="container-fluid" s style="background-color: rgb(225, 77, 77);">
+                    <a href="#collapse1" data-toggle="collapse" class="caption">
+                        <div class="desc">
+                            <div class="caption"><h3><strong font="" style="color:white">Machine Learning Assisted Sampling of SERS Substrates for early cancer Detection </strong></h3></div>
+                            <ul align="left"></a>
+                                <div id="collapse1" style="color:white; background-color:rgba(255, 255, 255, 0.2)" class="panel-collapse collapse">
+
+                                    <body><p>Surface Enhanced Raman Spectroscopy (SERS) is an analytical technique useful for detecting low-abundance biomolecules in biological fluids. One particularly promising application of this technique is the detection of cancer-cell-originating extracellular vesicles in a people’s blood. The presence of these extracellular vesicles indicates the presence of cancerous cells in the body, thus providing an early warning of cancer. A major barrier to the widespread application of this technique is the challenges associated with the data analysis of the SERS spectra.</p>
+
+                                    <p>One major data analysis challenge in applying SERS for early cancer diagnosis is distinguishing cellular signals from background signals. </p>
+
+                                    <p>I addressed this problem through careful data engineering and the application of modern machine learning algorithms. First, I built a program that allowed experienced researchers to label spectra as either “good” (i.e., a real signal) or “bad” (i.e., background). After this labeling was complete, I then used a random forest algorithm to automatically classify unlabeled spectra as “good” or “bad”. Finally, I integrated this algorithm with LabVIEW so that the classification was done automatically allowing for more efficient data collection.  </p></body>
+
+                                </div>
+                            </ul>
+                        </div>
+                </div>
+
+
+                <div class="container-fluid" style="background-color: rgb(51, 153, 225);">
+                    <a href="#collapse2" data-toggle="collapse" class="caption">
+                        <div class="desc">
+                            <div class="caption"><h3><strong font="" style="color:white">Zeolite Simulation Environment (ZeoSE) Package Development  </strong></h3></div>
+                            <ul align="left"></a>
+                                <div id="collapse2" style="color:white; background-color:rgba(255, 255, 255, 0.2)" class="panel-collapse collapse">
+
+                                    <p>I am building the ZeoSE project to streamline the calculations performed in my research group. The ZeoSE project extends the <a href=https://wiki.fysik.dtu.dk/ase/> Atomic Simulation Environment (ASE)</a> to naturally represent the properties of zeolites facilitating the calculations required to determine their properties. The main functionality of this code comes about by creating classes which represent zeolites and their derivatives. These zeolite classes inherit from ASE’s Atoms object, and can be treated as one. They also include additional functionality, streamlining calculations and allow zeolite derivatives to be quickly generated allowing for the rapid screening of zeolite properties.  </p>
+
+                                </div>
+                            </ul>
+                        </div>
+                </div>
+
+
+                <div class="container-fluid" style="background-color: rgba(0,0,225)">
+                    <a href="#collapse3" data-toggle="collapse" class="caption">
+                        <div class="desc">
+                            <div class="caption"><h3><strong font="" style="color:white">Screening Zeolites for their CO2 capture ability with Grand Canonical Monte Carlo (GCMC) Simulations   </strong></h3></div>
+                            <ul align="left"></a>
+                                <div id="collapse3" style="color:white; background-color:rgba(255, 255, 255, 0.2)" class="panel-collapse collapse">
+
+                                    <p>Global climate change is one of the biggest challenge’s humanity faces today. One promising solution is retrofitting existing fossil fuel powerplants with CO2 capture technology. Zeolites, which are nano-porous materials used industrially for gas separation and capture, hold considerable promise for CO2 capture. Identifying the best Zeolite for this purpose is challenging due to huge chemical space of Zeolites.</p>
+
+                                    <p>I addressed this problem by utilizing RASPA2, a classical simulation package, to perform GCMC calculations to assess the adsorption capacity of zeolites. For speed RASPA2 is written in C, but does include simple python interface. I extended this built-in python interface to allow for 
+                                    Isotherm calculations needed to asses zeolites CO2 capture ability.</p> 
+
+
+                                </div>
+                            </ul>
+                        </div>
+                </div>
+
+
                 </div>
             </section>
         </div>
