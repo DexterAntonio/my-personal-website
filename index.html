@@ -192,7 +192,8 @@
     </div>
     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
       <div class="panel-body">
-        <p>I am building the ZeoSE project to streamline the calculations performed in my research group. The ZeoSE project extends the <a href=https://wiki.fysik.dtu.dk/ase/> Atomic Simulation Environment (ASE)</a> to naturally represent the properties of <a href=https://en.wikipedia.org/wiki/Zeolite>zeolites</a> facilitating the calculations required to determine their properties. The main functionality of this code comes about by creating classes which represent zeolites and their derivatives. These zeolite classes inherit from ASE’s Atoms object, and can be treated as one. They also include additional functionality, streamlining calculations and allow zeolite derivatives to be quickly generated allowing for the rapid screening of zeolite properties.  </p>      </div>
+        <p>I am currently building the Multiscale Atomic Zeolite Simulation Environment (MAZE) python package to streamline the calculations performed in my research group. The MAZE project extends the <a href=https://wiki.fysik.dtu.dk/ase/> Atomic Simulation Environment (ASE)</a> to naturally represent <a href=https://en.wikipedia.org/wiki/Zeolite>zeolites</a> facilitating the calculations required to determine their properties. The main functionality of this code comes about by creating classes which represent zeolites and their derivatives. These zeolite classes inherit from ASE’s Atoms object, and can be treated as one. MAZE also includes additional functionality, performing calculations and allowing zeolite derivatives to be quickly generated. </p>
+  </div>
     </div>
   </div>
   <div class="panel panel-default">
@@ -205,9 +206,9 @@
     </div>
     <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
       <div class="panel-body">
-            <p>Global climate change is one of the biggest challenge’s humanity faces today. One promising solution is retrofitting existing fossil fuel powerplants with CO2 capture technology. Zeolites, which are nano-porous materials used industrially for gas separation and capture, hold considerable promise for CO2 capture. Identifying the best Zeolite for this purpose is challenging due to huge chemical space of Zeolites.</p>
+            <p>Global climate change is one of the biggest challenges humanity faces today. One promising solution is retrofitting existing fossil fuel powerplants with CO2 capture technology. Zeolites, which are nano-porous materials used industrially for gas separation, hold considerable promise for solid-state CO2 capture. The diversity of zeolite chemical structures, makes identifying the best Zeolite for this purpose challenging, thus computational chemistry experiments are needed to narrow down the number of potential candidates.</p>
 
-            <p>I addressed this problem by utilizing RASPA2, a classical simulation package, to perform GCMC calculations to assess the adsorption capacity of zeolites. For speed RASPA2 is written in C, but does include simple python interface. I extended this built-in python interface to allow for Isotherm calculations needed to asses zeolites CO2 capture ability.</p></div>
+            <p>To identify promising zeolites, I utilized Grand Canonical Monte Carlo (GCMC) simulations to predict the CO2 capture ability of a number of zeolites. To facilitate these calculations, I built a host of tools to make setting up the calculations simple. For example, I built an extension of the Atomic Simulation Environment (ASE) commonly used in computational experiments to better facilitate zeolite calculations. I have also written a Python wrapper for the C-coded GCMC simulation package to rapidly perform calculations. </p></div>
     </div>
   </div>
 </div>
@@ -222,9 +223,9 @@
     </div>
     <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
       <div class="panel-body">
-        <p>I am currently a participant in UC Davis Lab’s Hack for California Research cluster where I work on the General Plan Mapping Project. This project aims to make the hundreds of general plans prepared by California cities and counties easily searchable.</p>
+        <p>I am currently a participant in UC Davis Lab’s Hack for California Research cluster where I lead the General Plan Mapping Project. This project aims to make the hundreds of general plans prepared by California cities and counties easily searchable.</p>
 
-        <p>A major challenge of this project was developing an efficient, and fast way to search the tens of thousands of document pages so that query results could be displayed to the user. The original general plan mapping website written using R, thus limiting the amount of available packages. To meet the requirement quickly, I developed a custom word indexer in C++, which was able to integrate with the initial mapping dashboard and achieve high performance. The website was then reprogrammed in Python’s Flask, which allowed me to utilize in Elasticsearch to improve the searching capabilities significantly. The first version of the R shinny website can be found <a href=https://critical-data-analysis.org/shiny/general-plan-map/R/ >here</a>. The new Elasticsearch based website can be found <a href=https://critical-data-analysis.org/general-plan-map/> here </a>. The Github repo for both of these projects can be found <a href=https://github.com/Hack-for-California/General-Plan-Map>here</a>.</p></div>    </div>
+        <p>A major challenge of this project was finding a way to search the tens of thousands of document pages efficiently. To meet this requirement, I developed a custom word indexer in C++, which was able to integrate with the initial mapping dashboard and achieve high performance. The website was then reprogrammed in Python, which allowed me to utilize Elasticsearch to improve the searching capabilities significantlyThe first version of the R shinny website can be found <a href=https://critical-data-analysis.org/shiny/general-plan-map/R/ >here</a>. The new Elasticsearch based website can be found <a href=https://critical-data-analysis.org/general-plan-map/> here </a>. The Github repo for the python version of this projects can be found <a href=https://github.com/Hack-for-California/General-Plan-Map-Python>here</a>.</p></div>    </div>
   </div>
 </div>
 
